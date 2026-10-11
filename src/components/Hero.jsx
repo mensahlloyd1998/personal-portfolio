@@ -1,4 +1,5 @@
 import React from 'react';
+import lloydPhoto from "../assets/images/lloyd-mensah.png";
 
 export default function Hero() {
   const tools = ['Dify', 'Laravel', 'Python', 'React', 'Flutter', 'SQL'];
@@ -66,7 +67,7 @@ export default function Hero() {
               {/* Arched image container */}
               <div className="w-full aspect-[4/5] rounded-t-[140px] rounded-b-2xl overflow-hidden bg-neutral-200 border border-[#EAEAEA] shadow-sm">
                 <img
-                  src="/src/assets/images/Lloyd Mensah.png"
+                  src={lloydPhoto}
                   alt="Lloyd Mensah, Software Engineer & AI Automation Builder"
                   className="w-full h-full object-cover object-top grayscale contrast-105"
                   referrerPolicy="no-referrer"

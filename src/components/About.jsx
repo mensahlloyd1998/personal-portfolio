@@ -1,4 +1,5 @@
 import React from 'react';
+import aboutImg from "../assets/images/about_analytics_laptop_1791469209361.jpg";
 
 export default function About() {
   const points = [
@@ -30,7 +31,7 @@ export default function About() {
               {/* Console Mockup Image */}
               <div className="relative aspect-[16/10] bg-neutral-100 overflow-hidden">
                 <img
-                  src="/src/assets/images/about_analytics_laptop_1791469209361.jpg"
+                  src={aboutImg}
                   alt="Internal analytics console showing real-time pipeline telemetry"
                   className="w-full h-full object-cover object-center"
                   referrerPolicy="no-referrer"
