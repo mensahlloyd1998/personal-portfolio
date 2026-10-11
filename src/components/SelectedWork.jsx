@@ -1,4 +1,8 @@
 import React from 'react';
+import assetDashboard from '../assets/images/project_asset_dashboard_1791469218976.jpg';
+import smartHome from '../assets/images/project_smart_home_1791469229750.jpg';
+import crowdfunding from '../assets/images/project_crowdfunding_1791469239912.jpg';
+import cropDisease from '../assets/images/project_crop_disease_1791469250554.jpg';
 
 export default function SelectedWork() {
   const primaryProjects = [
@@ -10,19 +14,19 @@ export default function SelectedWork() {
         'Internal enterprise dashboard for 200+ users that reduced reporting time by 40% with robust SQL schema optimization.',
       metaLabel: 'IMPACT:',
       metaValue: '40% Time Reduction · 200+ Active Users',
-      image: '/src/assets/images/project_asset_dashboard_1791469218976.jpg',
+      image: assetDashboard,
       alt: 'Asset Management Dashboard for Bewsys Ltd',
     },
     {
       category: 'IoT / Laravel Backend',
-      client: 'LDM Electromechanical',
+      client: 'LOM Electromechanical',
       title: 'Smart Home Automation Backend',
       description:
         'Robust backend system logging, scheduling, and orchestrating real-time smart home device state changes across local networks.',
       metaLabel: 'STACK:',
       metaValue: 'Laravel · REST APIs · MQTT · Linux Infrastructure',
-      image: '/src/assets/images/project_smart_home_1791469229750.jpg',
-      alt: 'Smart Home Automation Backend for LDM Electromechanical',
+      image: smartHome,
+      alt: 'Smart Home Automation Backend for LOM Electromechanical',
     },
     {
       category: 'Fintech / Laravel',
@@ -32,7 +36,7 @@ export default function SelectedWork() {
         'High-security crowdfunding system engineered with seamless PaySwitch and theteller payment gateway processing pipelines.',
       metaLabel: 'INTEGRATIONS:',
       metaValue: 'PaySwitch Gateway · Webhooks · Transaction Auditing',
-      image: '/src/assets/images/project_crowdfunding_1791469239912.jpg',
+      image: crowdfunding,
       alt: 'Crowdfunding & Payment Platform',
     },
     {
@@ -43,7 +47,7 @@ export default function SelectedWork() {
         'Cross-platform Flutter application running edge vision models to classify plant pathologies in offline farming scenarios.',
       metaLabel: 'TECHNOLOGIES:',
       metaValue: 'Flutter · Python · Computer Vision · TFLite',
-      image: '/src/assets/images/project_crop_disease_1791469250554.jpg',
+      image: cropDisease,
       alt: 'Crop Disease Diagnosis AI App for University of Birmingham',
     },
   ];
