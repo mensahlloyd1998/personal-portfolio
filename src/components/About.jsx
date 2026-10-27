@@ -85,7 +85,7 @@ export default function About() {
             {/* Action CTA */}
             <div>
               <a
-                href="#"
+                href="/Lloyd Mensah - 2026.pdf"
                 className="inline-flex items-center gap-2 bg-[#111111] text-white text-sm font-medium px-5 py-3 rounded-full hover:bg-neutral-800 transition-colors shadow-sm"
               >
                 <span>Download CV</span>
