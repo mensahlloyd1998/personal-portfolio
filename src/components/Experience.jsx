@@ -7,7 +7,7 @@ export default function Experience() {
       company: 'e-Crime Bureau',
       location: 'Accra, Ghana',
       domain: 'Security Engineering',
-      period: 'Mar 2024 – Present',
+      period: 'Mar 2026 – Present',
       description:
         'Conducting comprehensive web application security assessments across authentication mechanics, authorization tiers, and application logic. Delivering structured risk reports across 8 enterprise applications and developing Python automation scripts for rapid vulnerability pattern analysis.',
     },
