@@ -72,11 +72,11 @@ export default function SelectedWork() {
         'Production Python plugin for merchant gateway integration and automated callback verification.',
     },
     {
-      badge: 'Coming Soon',
+      badge: '04',
       title: 'Dify Multi-Agent Study',
       description:
         'Autonomous lead qualification & CRM synchronization agent running on enterprise Dify.',
-      footnote: 'Publishing Q3 2025',
+      
     },
   ];
 
@@ -140,10 +140,10 @@ export default function SelectedWork() {
               </div>
 
               {/* Bottom Meta Bar */}
-              <div className="px-7 py-4 border-t border-[#EAEAEA] bg-[#FAFAFA] text-[11px] text-[#444748] font-mono flex flex-wrap gap-1.5 items-center">
+              {/* <div className="px-7 py-4 border-t border-[#EAEAEA] bg-[#FAFAFA] text-[11px] text-[#444748] font-mono flex flex-wrap gap-1.5 items-center">
                 <span className="font-semibold text-neutral-600">{project.metaLabel}</span>
                 <span>{project.metaValue}</span>
-              </div>
+              </div> */}
             </div>
           ))}
         </div>

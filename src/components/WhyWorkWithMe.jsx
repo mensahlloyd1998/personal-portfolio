@@ -4,41 +4,42 @@ export default function WhyWorkWithMe() {
   const advantages = [
     {
       num: '01',
-      title: 'Software Engineer First',
+      title: 'Engineering-Led Solutions',
       description:
-        'Production-grade code with tested architecture, proper error-handling, and database optimization—not fragile no-code prototypes.',
+        'Robust, production-ready software built on scalable architecture, optimised databases, and maintainable engineering practices.',
     },
     {
       num: '02',
-      title: 'AI-Focused MSc Degree',
+      title: 'Applied AI Expertise',
       description:
-        'Hands-on model integration and deep learning foundation earned at the University of Birmingham (UK).',
+        'Advanced academic grounding in Artificial Intelligence and Computer Science, with practical experience integrating AI capabilities into business applications.',
     },
     {
       num: '03',
-      title: 'Security-Minded Architecture',
+      title: 'Security-Driven Development',
       description:
-        'Experienced assessing live web applications for vulnerabilities, ensuring your company data and keys remain fortified.',
+        'Security-conscious architecture informed by practical application security assessments, vulnerability analysis, and secure software development practices.',
     },
     {
       num: '04',
-      title: 'Proven Commercial Delivery',
+      title: 'Business-Focused Delivery',
       description:
-        'Shipped enterprise dashboards, payment integrations, and automations that reduced manual reporting time by 40%.',
+        'A track record of delivering enterprise applications, payment integrations, and workflow automation that improve operational efficiency and reduce manual workloads.',
     },
     {
       num: '05',
-      title: 'Clear Communication & Training',
+      title: 'Stakeholder Engagement',
       description:
-        'Direct and respectful communication with clear documentation and training for non-technical stakeholders.',
+        'Clear technical communication, structured documentation, and knowledge transfer that enable effective collaboration between technical teams and business stakeholders.',
     },
     {
       num: '06',
-      title: 'Global Availability',
+      title: 'Flexible Engagement',
       description:
-        'Available for remote projects, international collaboration, and suitable engineering opportunities worldwide.',
+        'Available for consulting engagements, software development projects, and international collaborations across diverse industries and markets.',
     },
   ];
+  
 
   return (
     <section className="py-20 md:py-24 border-t border-[#EAEAEA]">
